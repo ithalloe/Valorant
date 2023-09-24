@@ -203,8 +203,8 @@ ul{
 @media (max-width: 425px) {
   .navbar {
     display: flex;
-    padding:
-  }
+}
+
   .logo{
     margin-left: auto;
     margin-right: auto;
