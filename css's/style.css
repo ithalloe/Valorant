@@ -1,0 +1,241 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap');
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Kanit', sans-serif;
+ }
+
+ .banner {
+   background-image:
+    url(../image/valorant.webp);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 90vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+
+ }
+
+ nav {
+   padding: 10px 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #2F4F4F;
+   width:100%;
+ }
+
+ nav .logo a {
+   text-decoration: none;
+   color: white;
+   font-size: 40px;
+   font-weight: 600;
+ }
+
+ nav ul {
+   display: flex;
+   align-items: center;
+   list-style: none;
+   padding: 20px;
+ }
+
+ nav li {
+   margin: 5px;
+ }
+
+ nav li a {
+   text-decoration: none;
+   color: white;
+   font-size: 25px;
+   font-weight: 500;
+   padding: 10px 20px;
+   border-radius: 3px;
+   transition: 0.3s;
+ }
+
+ nav li a:hover {
+   background-color: #2F4F4F;
+   color:  #2f4f4f;
+ }
+
+ .texto .titulo {
+   color: white;
+   font-size: 80px;
+   font-weight: 600;
+
+ }
+
+ .texto .botao button {
+   height: 60px;
+   width: 200px;
+   border-radius: 8px;
+   border: 0;
+   margin: 0 10px;
+   font-size: 25px;
+   font-weight: 400;
+   padding: 0 15px;
+   cursor: pointer;
+   outline: none;
+   transition: 0.3s;
+   margin-top: 10px;
+
+ }
+
+ .texto .botao button:hover {
+   opacity: 0.5;
+ }
+
+ .texto .botao button.overlay {
+   background-color: white;
+   color: #2F4F4F;
+   animation: blink 1.5s ease-in-out infinite both;
+ }
+.container{
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto; 
+}
+
+.linha{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #2F4F4F;
+  padding:30px 0;
+}
+.coluna{
+  width: 33.3%;
+  padding: 0 50px;
+}
+
+.coluna h2{
+  font-size: 23px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.coluna h2::before{
+  content:'';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: white;
+  height: 3px;
+  box-sizing: border-box;
+  width: 80px;
+}
+
+.coluna ul li:not(:last-child) {
+ margin-bottom: 10px; 
+}
+
+.coluna li p{
+  font-size: 19px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color:white;
+  display: block;
+  transition:all 0.3s ;
+}
+
+.coluna li p:hover{
+  color: white;
+  padding-left: 5px;
+}
+
+.coluna ul li a {
+  font-size: 19px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color:white;
+  display: block;
+  transition:all 0.3s ;
+}
+
+.coluna ul li a:hover {
+  color: white;
+  padding-left: 5px;
+}
+
+.coluna .social a{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(255,255,255,0.2);
+  margin: 0 10px 10px 0px;
+  line-height: 50px;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.4s;
+  padding: 0 0 0 18px;
+}
+
+.coluna .social a:hover {
+  background-color: white;
+  color: #2F4F4F;
+}
+
+#direitos h3{
+  color: white;
+  background-color: #5e9c9c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.copy h3:hover{
+  opacity:0.8;
+}
+
+@media (max-width: 425px) {
+  .navbar {
+    display: flex;
+    padding:
+  }
+  .logo{
+    margin-left: auto;
+    margin-right: auto;
+  }
+ .paginas{
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+ }
+}
+
+
+ /* responsivo (tablet) */
+
+  @media (max-width: 780px) {
+  .navbar {
+    display: inline-flex;
+    flex-wrap:wrap;
+  }
+  .logo{
+    margin-left: auto;
+    margin-right: auto;
+  }
+ .paginas{
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+ }
+}
+
+ @media (max-width: 425px) {
+  .navbar li a{
+  }
+ }

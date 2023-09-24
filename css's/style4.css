@@ -1,0 +1,61 @@
+
+body{
+background: #5e9c9c;
+  height: 35vh;
+}
+
+#banner { 
+ border-radius:3%; 
+max-width: 500cm;
+margin-left: 4cm;
+margin-top: 1cm;
+margin-bottom:1cm;
+}
+
+
+table{
+color: white;
+display: flex;
+align-items: center;
+padding: 1cm 1cm;
+font-size: 30px;
+justify-content: center;
+
+}
+
+.chaveiros{
+width: 120px;
+margin-top: 25px;
+justify-content: center;
+}
+
+table .info{
+  padding: 0 2cm ;
+  justify-content: center;
+  
+}
+
+.chaveiros:hover{
+  transform:scale(1.2);
+}
+
+.nomes:hover{
+transform:scale(1.2);
+}
+
+#chav{
+  padding: 20px;
+}
+
+#max{
+  max-width: 80px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+    /* responsivo(tablet) */
+
+@media (max-width: 840px) {
+   #chavei{
+     padding: 0 10px;
+   }
+}

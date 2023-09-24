@@ -1,0 +1,89 @@
+
+#venha {
+  color: white;
+  margin-top: 2px;
+}
+
+.up {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #5e9c9c;
+  border: 1px solid #2f4f4f;
+}
+
+body {
+  background-color: #5e9c9c;
+}
+
+.mid .corpo h2 {
+  color: white;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#mid{
+  margin-top:3%;
+}
+
+body .mid .corpo ul {
+  color: white;
+  margin-left: 5px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: auto;
+  text-align: center;
+  font-size: 600;
+  padding: 0px 25px;
+  list-style: none;
+}
+
+#parte2 {
+  color: white;
+  margin-left: 5px;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: auto;
+  text-align: center;
+  font-size: 600;
+  padding: 0px 25px;
+  list-style: none;
+}
+
+#primeiraimg {
+  max-width: 500px;
+  border-radius: 3%;
+}
+
+#segundaimg {
+  max-width: 500px;
+  border-radius: 3%;
+}
+
+body .imagens {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  gap: 2.5cm;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+
+    /* responsivo(tablet) */
+
+@media (max-width: 780px) {
+  .imagens{ 
+   display: flex;
+    flex-wrap: wrap;
+    gap:1cm;
+  }
+}
+

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap');
+
+
+
+body{
+background: #5e9c9c;
+  height: 35vh;
+}
+
+#banner { 
+border-radius:3%; 
+width: 32cm;
+margin-left: auto;
+margin-right:auto;
+margin-top: 1cm;
+margin-bottom:1cm;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+#nomes-map{
+color:white;
+margin-top:1cm;
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#nomes-map th{
+padding:23px 60px;
+display: inline-block;
+align-items: center;
+justify-content: center;
+}
+
+   /* responsivo(tablet) */
+
+@media (max-width: 780px) {
+#banner{ 
+width:700px;
+margin-left: auto;
+margin-right:auto;
+}
+#nomes-map th{
+font-size:15px;
+padding:12px 30px;
+margin-left: auto;
+margin-right:auto;
+}
+}

@@ -1,0 +1,82 @@
+body{
+  background-color:#5e9c9c
+}
+#descubra {
+  color: white;
+  margin-top: 2px;
+}
+.topo {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #5e9c9c;
+  border: 1px solid #2F4F4F;
+}
+
+table .duel:hover{
+  transform: scale(1.1);
+}
+
+#jett {
+  font-size: 35px;
+  padding: 1cm;
+  color: white;
+}
+
+#jett1 {
+  max-width: 130px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+#reyna1 {
+  max-width: 130px;
+  margin-left: 10px;
+  margin-top: 1cm;
+}
+
+#neon1{
+  max-width: 130px;
+  margin-left: 10px;
+  margin-top: 1cm;
+}
+#raze1{
+  max-width: 130px;
+  margin-left: 10px;
+  margin-top: 1cm;
+}
+#fenix1{
+  max-width: 130px;
+  margin-left: 10px;
+  margin-top: 1cm;
+  
+}
+#yoru1{
+  max-width: 130px;
+  margin-left: 10px;
+  margin-top: 1cm;
+  
+}
+#tabela {
+  color: white;
+  font-size: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-color:#2F4F4F;
+  padding: 1cm 1cm;
+}
+
+  /* responsivo(tablet) */
+
+@media (max-width: 780px) {
+  .duel{ 
+   width:100px;
+  } 
+}
